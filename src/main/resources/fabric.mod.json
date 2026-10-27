@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeskelly",
+  "version": "${version}",
+  "name": "demo16's Fake Skelly",
+  "description": "Client-only visual: glass looks like a skeleton spawner on your screen only. Nothing real happens.",
+  "authors": ["demo16"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.demo16.fakeskelly.FakeSkellyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
